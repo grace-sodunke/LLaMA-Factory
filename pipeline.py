@@ -136,7 +136,7 @@ def main(args):
 
     print("Calculating reward...")
     # calculate_reward(args, new_dataset, n, num_repeat, ppo_dataset)
-    
+
     ppo_adapter_path = f"saves/{model_name}/{args.dataset_name}/ppo"
     dataset_ppo = f"animal_ppo"
     add_new_dataset_info(args.data_info_path, f'{dataset_ppo}', f'{dataset_ppo}.json', stage="ppo")

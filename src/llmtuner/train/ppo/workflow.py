@@ -38,7 +38,6 @@ from ...data.template import get_template_and_fix_tokenizer
 
 from .policy import Policy, PolicyPPOTrainer
 
-
 def collate_fn(data):
     zipped = zip(data)
     return list(zipped)
